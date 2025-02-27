@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+label, input, select, textarea{
+    display: block ;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 10px 10px;
+ 
+
+ } 
+ 
+ 
+ .roboto-thin {
+   font-family: "Roboto", sans-serif;
+ } 
+
+ body{
+    background-color: whitesmoke
+   
+ }
+
+ form{
+    width: 550px;
+    margin: auto;
+    background-color: rgb(163, 30, 30);
+    padding: 40px;
+    border-radius: 10px 10px 10px 10px;
+    
+ }
+ label{
+    padding: 0;
+    margin: 0;
+    width: 100% ;
+    font-size: 18px;
+    border-radius: 10px 10px 10px 10px;
+ }
+ .emlinha{
+    display: inline;
+    width: 10%;
+    font-size: 16px;
+    border-radius: 10px 10px 10px 10px;
+ }
+ .medidas{
+    display: inline;
+    width: 35%;
+    border-radius: 10px 10px 10px 10px;
+ }
+ input[type='checkbox'], input[type='radio']{
+   margin-right: 0px;
+   margin-left: 15px;
+   border-radius: 10px 10px 10px 10px;
+ }
+ input:focus, select:focus, textarea:focus{
+   outline: none;
+   border-radius: 10px 10px 10px 10px;
+ }
+ #enviar{
+   width: 100%;
+   border: 2px solid rgb(198, 7, 7);
+   background-color: #fff;
+   color: crimson;
+   font-weight: bold;
+   cursor: pointer;
+   padding: 15px;
+   border-radius: 10px 10px 10px 10px;
+   transition: all 0.4s ease;
+ }
+ #enviar:hover{
+  background-color:rgb(198, 7, 7);
+  color: floralwhite;
+ transition:all linear 0.3;
+ border-radius: 10px 10px 10px 10px;
+ transition: all 0.4s ease-out;
+ }
